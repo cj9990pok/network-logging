@@ -386,7 +386,7 @@ Edit `config.json` to customize monitoring behavior. See `config.example.json` f
 
 | Setting | Description | Default |
 |---------|-------------|---------|
-| `gateway` | Your router IP or `"auto"` | `"192.168.2.1"` |
+| `gateway` | Your router IP or `"auto"` | `"192.168.1.1"` |
 | `targets` | Public IPs to test (e.g., DNS servers) | `["1.1.1.1", "8.8.8.8"]` |
 | `log_dir` | Where to store logs | `"./logs"` |
 | `ping_interval_sec` | Seconds between tests (for loop mode) | `20` |
@@ -434,7 +434,7 @@ Run at: 20251002_143502
 ============================================================
 Start: 2025-10-02T14:35:02+0200
 HOST: your-server            Loss%   Snt   Last   Avg  Best  Wrst StDev
-  1. AS???    192.168.2.1      0.0%    60    0.6   0.6   0.5   0.9   0.1
+  1. AS???    192.168.1.1      0.0%    60    0.6   0.6   0.5   0.9   0.1
   2. AS???    ???             100.0    60    0.0   0.0   0.0   0.0   0.0
   3. AS3209   88.79.29.66      0.0%    60   13.8  13.9  13.6  14.4   0.2
 ...

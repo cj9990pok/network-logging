@@ -77,7 +77,7 @@ Check the output - you should see:
 ```
 Network logging gestartet um 2025-10-02 14:35:00
 Logs werden gespeichert in: ./logs
-Gateway: 192.168.2.1
+Gateway: 192.168.1.1
 ```
 
 Verify logs were created:
