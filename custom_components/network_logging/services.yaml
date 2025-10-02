@@ -1,0 +1,15 @@
+run_test:
+  name: Run Network Test
+  description: Run a manual network connectivity test
+  fields:
+    target:
+      name: Target
+      description: Target IP address or hostname to test (optional, tests all configured targets if omitted)
+      example: "1.1.1.1"
+      required: false
+      selector:
+        text:
+
+check_gateway:
+  name: Check Gateway
+  description: Check default gateway connectivity and latency

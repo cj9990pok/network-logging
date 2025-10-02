@@ -1,0 +1,70 @@
+{
+    "_comment": "Network Logging Configuration - Copy this to config.json and adjust for your network",
+    
+    "gateway": "192.168.1.1",
+    "_gateway_help": "Your router/gateway IP address. Use 'auto' for automatic detection on Linux/macOS",
+    
+    "targets": [
+        "1.1.1.1",
+        "8.8.8.8",
+        "9.9.9.9",
+        "8.8.4.4"
+    ],
+    "_targets_help": "Public DNS servers to test internet connectivity. Using multiple provides redundancy.",
+    
+    "http_url": "https://example.com",
+    "_http_url_help": "HTTP(S) URL for DNS-based connectivity test (requires DNS resolution)",
+    
+    "http_ip_url": "https://1.1.1.1",
+    "_http_ip_url_help": "HTTP(S) URL using IP address to test connectivity without DNS",
+    
+    "tcp_test_ip": "1.1.1.1",
+    "tcp_test_port": 443,
+    "_tcp_test_help": "IP and port for TCP connectivity test (bypasses both ICMP filtering and DNS)",
+    
+    "dns_test_hostname": "example.com",
+    "_dns_test_help": "Hostname for DNS resolution test",
+    
+    "trace_host": "1.1.1.1",
+    "_trace_host_help": "Target for traceroute/MTR when issues are detected",
+    
+    "log_dir": "./logs",
+    "_log_dir_help": "Directory for log files. Relative to script location or absolute path. Will be created if it doesn't exist.",
+    
+    "ping_timeout_sec": 4,
+    "_ping_timeout_help": "Timeout in seconds for ping operations",
+    
+    "ping_interval_sec": 20,
+    "_ping_interval_help": "Seconds between each monitoring cycle (used when running in loop mode)",
+    
+    "trace_cooldown_sec": 180,
+    "_trace_cooldown_help": "Minimum seconds between traceroute runs to avoid flooding",
+    
+    "mtr_intensive_enabled": true,
+    "mtr_intensive_count": 60,
+    "_mtr_intensive_help": "Run detailed MTR (My Traceroute) with N packets when issues detected",
+    
+    "mtr_targets": [
+        "1.1.1.1"
+    ],
+    "_mtr_targets_help": "Targets for intensive MTR runs during outages (keep list short!)",
+    
+    "isp_targets": [
+        "88.79.29.66"
+    ],
+    "_isp_targets_help": "ISP hop IPs near your network for baseline monitoring. Use discover_isp_hops.py to find yours. Keep to 1-2 IPs max!",
+    
+    "isp_tcp_ip": "88.79.29.66",
+    "isp_tcp_port": 443,
+    "_isp_tcp_help": "Optional: Test TCP connectivity to ISP hop (may not work if hop doesn't listen on port)",
+    
+    "mtr_baseline_enabled": true,
+    "mtr_baseline_period_sec": 900,
+    "mtr_baseline_count": 60,
+    "_mtr_baseline_help": "Periodically run MTR to ISP targets even when connection is OK (for trend analysis). Period in seconds (900 = 15 minutes)",
+    
+    "analyze_on_outage": true,
+    "analyze_cooldown_sec": 300,
+    "analyze_timeout_sec": 120,
+    "_analyze_help": "Automatically run analyze_netlog.py when outage detected. Cooldown prevents repeated runs."
+}

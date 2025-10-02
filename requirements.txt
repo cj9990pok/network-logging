@@ -1,0 +1,12 @@
+# Network Logging - Python Requirements
+# 
+# Core dependencies for network monitoring and analysis
+# Install with: pip install -r requirements.txt
+
+# No external dependencies required!
+# This project uses only Python standard library modules.
+#
+# System requirements:
+# - Python 3.8+
+# - mtr (My Traceroute) - install via: apt install mtr (Linux) or brew install mtr (macOS)
+# - Standard network utilities: ping, traceroute

@@ -1,0 +1,13 @@
+{
+  "domain": "network_logging",
+  "name": "Network Monitoring",
+  "codeowners": ["@yourusername"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/yourusername/network-logging",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/yourusername/network-logging/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
