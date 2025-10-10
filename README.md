@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Platform: Windows | Linux | macOS](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blue)](https://github.com/yourusername/network-logging)
+[![Platform: Windows | Linux | macOS](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blue)](https://github.com/connyTheOne/network-logging)
 
 A comprehensive **cross-platform** network monitoring tool that continuously tracks internet connectivity, diagnoses outages, and identifies whether problems originate from your local network, ISP, or external services. Works on **Windows, Linux, and macOS**. Perfect for documenting ISP reliability issues with detailed evidence.
 
@@ -646,9 +646,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Conrad Heilmann - Project Maintainer
+connyTheOne - Project Maintainer
 
-GitHub: [@yourusername](https://github.com/yourusername)
+GitHub: [@yourusername](https://github.com/connyTheOne)
 
 ---
 
